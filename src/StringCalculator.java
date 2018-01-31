@@ -3,7 +3,7 @@ public class StringCalculator {
 
     int Add(String numbers) {
 
-//        String delims = "[, ^a-z]+";
+        String delims = "[, ^a-z]+";
         String[] Num = numbers.split(delims);
 
         int sum = 0;
@@ -21,7 +21,7 @@ public class StringCalculator {
                 sum += Integer.parseInt(Num[i]);
 
             }
-//            System.out.println(sum);
+
 
         }
 
