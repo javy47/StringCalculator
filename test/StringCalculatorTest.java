@@ -11,7 +11,8 @@ class StringCalculatorTest {
         StringCalculator test = new StringCalculator();
         assertEquals(0,test.Add(testEmpty),"this should return 0");
         //One Item
-        String testOneItem = "0";
+
+        String testOneItem = "31";
         assertEquals(31,test.Add(testOneItem),"this should return 31");
 
         String testTwoItem = "1,2";
