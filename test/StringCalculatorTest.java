@@ -41,5 +41,19 @@ class StringCalculatorTest {
 
     }
 
+    @Test
+    void AddTestNull(){
+        StringCalculator test = new StringCalculator();
+        String testNull = "";
+        assertEquals(0,test.Add(testNull));
+    }
+
+    @Test
+    void AddMultipleCharacters(){
+        StringCalculator test = new StringCalculator();
+        String testCh = "asdkufhiualweh";
+        assertEquals(0,test.Add(testCh), "this should return 0");
+    }
+
 
 }
