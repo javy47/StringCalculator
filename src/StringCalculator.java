@@ -7,7 +7,7 @@ public class StringCalculator {
         String[] Num = numbers.split(delims);
 
         int sum = 0;
-        if (numbers.equals(" ")) {
+        if (numbers.equals("")) {
             return 0;
         }
         if(Num.length == 1){
