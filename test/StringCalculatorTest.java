@@ -55,5 +55,12 @@ class StringCalculatorTest {
         assertEquals(0,test.Add(testCh), "this should return 0");
     }
 
+    @Test
+    void AddNewLineCharacter(){
+        StringCalculator test = new StringCalculator();
+        String newLine = "1\n2\n3";
+        assertEquals(6,test.Add(newLine));
+    }
+
 
 }
